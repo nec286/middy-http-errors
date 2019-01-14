@@ -1,0 +1,9 @@
+{
+  "name": "middy-http-errors",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https@github.com:nec286/middy-http-errors.git",
+  "author": "nec286 <peter.t.ludlow@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
