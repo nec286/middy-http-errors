@@ -1,9 +1,30 @@
 {
   "name": "middy-http-errors",
   "version": "1.0.0",
-  "main": "index.js",
+  "module": "src/index.ts",
+  "main": "dist/index.js",
   "repository": "https@github.com:nec286/middy-http-errors.git",
   "author": "nec286 <peter.t.ludlow@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "build": "npx webpack --env.production",
+    "test": "jest",
+    "docs": "typedoc"
+  },
+  "typings": "dist/types/index.d.js",
+  "devDependencies": {
+    "@types/http-errors": "^1.6.1",
+    "@types/jest": "^23.3.12",
+    "@types/node": "^10.12.18",
+    "jest": "^23.6.0",
+    "jest-config": "^23.6.0",
+    "middy": "^0.20.0",
+    "ts-jest": "^23.10.5",
+    "ts-loader": "^5.3.3",
+    "typedoc": "^0.14.1",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
 }
